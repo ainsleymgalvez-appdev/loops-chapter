@@ -19,3 +19,12 @@
 
 p "Enter a number:"
 
+number = gets.chomp.to_i
+multiply = 1
+
+while multiply <= 10
+  p number * multiply
+
+  multiply = multiply + 1
+end
+
